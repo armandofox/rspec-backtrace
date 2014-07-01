@@ -62,9 +62,9 @@ So to summarize what I'm experiencing:
 
 * With `--backtrace` **and** a call to `Time.parse` to generate the name of
    an example, `autotest` seems unable to re-run failing specs.
-
 * Removing **either** `--backtrace` **or** the call to `Time.parse`
    makes `autotest` do the right thing.
+* Specifying RSpec 2.99 in the Gemfile gives all these same behaviors (albeit with some 2.99 deprecation warnings).
 
 For the moment, my workaround is to remove `--backtrace`, though I like
 having it on since it makes debugging non-obvious failures faster for
