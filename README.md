@@ -5,7 +5,7 @@ failing specs because the first argument to `rspec` is malformed.**
 This is the weirdest rspec/autotest bug I have seen.  I'm not sure if
 the bug is in autotest or in part of rspec.
 
-I'm on Mac OS 10.5.8 using Ruby 1.9.3-p429 via `rvm`.
+I'm on Mac OS 10.8.5 using Ruby 1.9.3-p429 via `rvm`.
 
 I found this bug with RSpec 2.14.0, but I have confirmed it is present in 2.99 as well.
 
